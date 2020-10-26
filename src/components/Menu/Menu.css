@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .menu {
+  display: flex;
+}
+.container .sidebar {
+  display: flex;
+  position: absolute;
+  left: 72px;
+  width: 430px;
+}
+.container .content {
+  display: flex;
+  height: 100vh;
+}
+.text-img {
+  display: flex;
+  flex-direction: column;
+  width: 56px;
+  height: 28px;
+  padding: 15px 0px 12px;
+}
+hr {
+  width: 80px;
+  height: 1px;
+  background-color: #3d4257;
+}
+.colorbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.logo {
+  margin-bottom: 16px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.bound {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #6c84fa;
+}

@@ -41,6 +41,7 @@ function SideBar(props) {
   return (
     <div class="container-question" style={{ textAlign: "left" }}>
       <img src={İllustration} width="390" height="250" />
+
       <div className="container-text">
         <div className="help-title-text">
           <h3>Yardım merkezi</h3>
@@ -50,7 +51,11 @@ function SideBar(props) {
           </p>
         </div>
         <ItemsGroups headline="MERAK EDİLENLER" data={merakEdilenData()} />
-        <ItemsGroups headline="İLETİŞİM" data={contactData()} />
+        <ItemsGroups
+          headline="İLETİŞİM"
+          boxShadow="0 2px 16px 0 rgba(0, 0, 0, 0.08)"
+          data={contactData()}
+        />
 
         {/* 
         <Items

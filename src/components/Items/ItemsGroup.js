@@ -3,11 +3,11 @@ import Items from "./Item";
 import "./Item.css";
 
 function ItemsGroups(props) {
-  const { children, headline, data } = props;
+  const { headline, data, boxShadow } = props;
   return (
     <div>
       <div className="group-headline">{headline}</div>
-      <div class="items-group">
+      <div class="items-group" style={{ boxShadow: boxShadow }}>
         {data.map((item, index) => (
           <Items
             key={index}

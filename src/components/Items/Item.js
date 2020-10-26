@@ -4,8 +4,8 @@ import "./Item.css";
 function Items(props) {
   const { icon, texttitle, textwrite } = props;
   return (
-    <div class="item">
-      <div class="item-icon">
+    <div className="item">
+      <div className="item-icon">
         <img src={icon} />
       </div>
       <div class="text">

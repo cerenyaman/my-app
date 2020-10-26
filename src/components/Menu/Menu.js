@@ -18,31 +18,9 @@ function Menu() {
   return (
     <div className="container">
       <div className="menu">
-        <div
-          style={{
-            backgroundColor: "#2e3448",
-            width: "72px",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <div
-            className="side"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "space-between",
-            }}
-          >
-            <div
-              class="sidenav-1"
-              style={{
-                display: "flex",
-                flexDirection: "column",
-
-                textDecoration: "none",
-              }}
-            >
+        <div className="menu-side">
+          <div className="side">
+            <div class="sidenav-1">
               {" "}
               <img className="colorbar" src={Bar} alt="" />
               <a href="#about" style={{ borderBottom: "1px solid #3d4257" }}>

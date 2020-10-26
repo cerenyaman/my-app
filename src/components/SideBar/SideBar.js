@@ -1,9 +1,8 @@
 import React from "react";
 import "./SideBar.css";
-import Items from "../Items/Item";
-import İl from "../../assets/images/il.png";
-import Ac from "../../assets/images/ac.png";
-import Co from "../../assets/images/co.png";
+import İllustration from "../../assets/images/illustration.png";
+import Accounting from "../../assets/images/accounting.png";
+import Commission from "../../assets/images/commission.png";
 import ItemsGroups from "../Items/ItemsGroup";
 import İnfo from "../../assets/images/info.png";
 import Customer from "../../assets/images/customer.png";
@@ -12,12 +11,12 @@ import CustomerServices from "../../assets/images/customer-services.png";
 function SideBar(props) {
   const merakEdilenData = () => [
     {
-      icon: Co,
+      icon: Commission,
       title: "Kategori komisyon oranları",
       description: "kategori komisyon",
     },
     {
-      icon: Ac,
+      icon: Accounting,
       title: "Kargo Ücretleri",
       description: "Kargo firmaları ve desi bazlı ücretlendirme tarifesi",
     },
@@ -41,28 +40,11 @@ function SideBar(props) {
   ];
   return (
     <div class="container-question" style={{ textAlign: "left" }}>
-      <img src={İl} width="390" height="250" />
+      <img src={İllustration} width="390" height="250" />
       <div className="container-text">
         <div className="help-title-text">
-          <h3
-            style={{
-              fontSize: "25px",
-              color: "#484848",
-              margin: 0,
-              lineHeight: "15px",
-            }}
-          >
-            Yardım merkezi
-          </h3>
-          <p
-            style={{
-              color: "#646464",
-              fontSize: "16px",
-
-              width: "300px",
-              margin: "8px 8px 20px 8px ",
-            }}
-          >
+          <h3>Yardım merkezi</h3>
+          <p>
             Merhaba kardeşler ithalat ve ihracatta , Size nasıl yardımcı
             olabiliriz?
           </p>
